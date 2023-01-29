@@ -1,0 +1,40 @@
+.bg-dashboard {
+    background-color: #333333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-dashboard-home {
+    background-color: #333333;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 89vh;
+}
+
+.icon-size {
+    width: 16px;
+}
+
+.projects-color {
+    color: grey;
+}
+
+
+.new-projects-bg {
+    background: linear-gradient(180deg, #00D4A8 0%, #048F72 100%);
+    border-radius: 4px;
+
+}
+
+
+.nav-item button a:hover {
+    background-color: rgba(255, 255, 255, 0.12)
+}
+
+/* .nav-item button {
+    padding: 0px;
+} */
+
+.nav-item button {
+    border: 0px;
+}

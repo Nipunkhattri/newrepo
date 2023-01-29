@@ -6,7 +6,7 @@ import tutorial from '../../images/grid.png';
 import logout from '../../images/logout.png'
 import { faHouseChimney, faBell, faUser } from '@fortawesome/free-solid-svg-icons';
 import './Dashboard.css'
-import CustomLink from '../../CustomLink/CustomLink';
+// import CustomLink from '../../CustomLink/CustomLink';
 
 
 const Dashboard = () => {
@@ -25,22 +25,22 @@ const Dashboard = () => {
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                             <li class="nav-item">
 
-                                <CustomLink to='/dashboard' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faHouseChimney}></FontAwesomeIcon> <span className='ps-1'>Home</span></button></CustomLink>
+                                <Link to='/dashboard' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faHouseChimney}></FontAwesomeIcon> <span className='ps-1'>Home</span></button></Link>
 
                             </li>
                             <li class="nav-item">
-                                <CustomLink to='/dashboard/notifications' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faBell}></FontAwesomeIcon> <span className='ps-1'>Notifications</span></button></CustomLink>
+                                <Link to='/dashboard/notifications' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faBell}></FontAwesomeIcon> <span className='ps-1'>Notifications</span></button></Link>
 
 
                             </li>
 
                             <li class="nav-item">
-                                <CustomLink to='/dashboard/tutorials' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'> <img style={{ width: '18px' }} src={tutorial} alt="" /> <span className='ps-1'>Tutorial</span></button></CustomLink>
+                                <Link to='/dashboard/tutorials' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'> <img style={{ width: '18px' }} src={tutorial} alt="" /> <span className='ps-1'>Tutorial</span></button></Link>
 
 
                             </li>
 
-                            <CustomLink to='/dashboard/profile' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <span className='ps-1'>Profile</span></button></CustomLink>
+                            <Link to='/dashboard/profile' class="nav-link active rounded text-light" aria-current="page" href=" "><button className='btn text-light'><FontAwesomeIcon icon={faUser}></FontAwesomeIcon> <span className='ps-1'>Profile</span></button></Link>
 
 
                             {/* <li class="nav-item">
